@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Template for user studies</title>
+<link href="StudyTemplateStyle.css" rel="stylesheet" type="text/css">
+<script src="StudyTemplateScript.js"> </script>
+</head>
+<body>
+
+<!-- Remove comment below if a header at the top of the page is needed -->	
+<header>Study Title</header> 
+
+<div id="LeftMenu">
+	<div class="SelectedMenuItem" onClick="selectedMenuItem(this)">Task 1</div>
+	<div class="MenuItem" onClick="selectedMenuItem(this)">Task 2</div>	
+	<div class="MenuItem" onClick="selectedMenuItem(this)">Task 3</div>	
+</div>
+
+<div id="MainContent">
+	
+	<div id="Task 1" class="VisibleContent">
+		<h1>Task 1</h1>
+
+		<p>Task 1 description. You may also list some attributes in a list:</p>
+		<ul>
+			<li>One item</li>
+			<li>Second item</li>
+			<li>Third item</li>
+		</ul>
+		<a class="Task_Link" href="./prototypePlaceholder.html"  target="_blank">Start Task</a>
+	</div>
+
+	<div id="Task 2" class="HiddenContent">
+		<h1>Task 2</h1>
+
+		<p class="Task_Description">Description of Task 2</p>
+
+		<a class="Task_Link" href="./prototypePlaceholder.html"  target="_blank">Start Task</a>
+
+	</div>
+
+	<div id="Task 3" class="HiddenContent">
+		<h1>Task 3</h1>
+
+		<p class="Task_Description">Task 3 description goes here</p>
+
+		<a class="Task_Link" href="./prototypePlaceholder.html"  target="_blank">Start Task</a>
+	</div>
+
+</div>
+	
+</body>
+</html>

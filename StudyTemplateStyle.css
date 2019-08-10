@@ -1,0 +1,315 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif;
+	margin: 0px;
+	color:#32383f;
+}
+
+body, html {
+	height: 100%;
+	overflow: auto;
+}
+
+iframe {
+	border: none;
+    height: 90%;
+	width: 100%;
+	padding: 20px;
+	padding-top: 10px;
+	overflow: hidden;
+
+}
+
+
+header {
+	padding: 20px;
+	padding-top: 10px;
+	height: 40px;
+	background-color: #fff;
+	color:#222;
+	font-weight: bold;
+	font-size: 1.8em;
+	border-bottom-style: solid;
+	border-bottom-color: #eee;
+	border-bottom-width: 1px;
+}
+
+h1
+{
+	font-size: 1.8em;
+	font-style: normal;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-size: 1.6em;
+	font-style: normal;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-style: normal;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+h4 {
+	border-top: thin solid #ccc;
+	padding-top: 10px;
+	font-size: 1.2em;
+	font-style:normal;
+	font-weight: lighter;
+}
+
+p {	
+	padding-top: 30px;
+	padding-bottom: 5px;
+}
+
+img {
+	max-width: 100%;
+	border: thin solid #ccc;
+}
+
+ul {
+	padding-left: 20px;
+	padding-bottom: 50px;
+}
+
+
+
+
+.InnerParagraph {	
+	padding-top: 10px;
+}
+
+#LeftMenu {
+	height: 100%;
+    width: 20%;
+	min-width: 200px;
+	max-width: 200px;
+	background-color: #fefefe;
+	float: left;
+	z-index: 1;
+	border-right-style: solid;
+	border-right-color: #eee;
+	border-right-width: 1px;
+}
+
+.MenuItem, .FadeBackMenuItem {
+	padding: 20px;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	color:#32383f;
+}
+
+.FadeBackMenuItem {
+	color: #8f9ca8;
+}
+
+.MenuItem:hover, .FadeBackMenuItem:hover {
+	background-color:#66d7f7;
+}
+
+.SelectedMenuItem {
+	padding: 20px;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	background-color: #008db5;
+	color: #fff;
+}
+
+#MainContent {	
+	padding:0px;
+	padding-left: 30px;
+	padding-top: 20px;
+	height: 100%;
+	width: 87%;
+	float: left;
+	overflow: hidden;
+}
+
+#MainContentTabs {
+	/* margin-left: 20px; */
+	padding-top: 10px;	
+	width: 100%;
+	border-bottom: 2px solid #ccc;	
+	float: left;
+}
+
+#TabContent {
+	padding-top: 60px;
+	height: 90%;
+}
+
+.SelectedTabItem {
+	width: auto;
+	max-width: 200px;
+	border-bottom: medium solid #000;
+	float: left;
+	
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+
+	
+}
+
+.NonSelectedTabItem {
+	
+	padding-left: 20px;
+	color: #4668c5;
+	float: left;
+	
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+
+.HiddenContent {
+	display: none;
+	color: red;
+}
+
+
+
+.VisibleContent {
+	display: inline-block;
+}
+
+#SICSSReferenceContent
+{
+	width: 100%;
+	height: 90%;
+}
+
+.PatternOverviewImage
+{
+	width: 60%;
+	float:left;
+	margin-right: 20px;
+	padding-top: 5px;
+}
+
+.PatternDescription
+{
+	width: 30%;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+.Interactiondetails {
+	float: left;
+	clear: both;
+	width: 100%;
+	border: none;
+	margin-bottom: 100px;
+}
+
+/* button */
+
+.Task_Link
+{
+	border-style: solid;
+	border-width: 1px;
+	color: #fff;
+	margin-top: 30px;
+	padding: 10px;
+	text-decoration: none;
+	background-color: #008db5;
+}
+
+.Task_Description
+{
+	padding-bottom: 50px;
+}
+
+.Prototype_Description
+{
+	padding-left: 20px;
+}
+
+@media only screen and (max-width: 1660px) {
+	
+	#LeftMenu {
+		 width: 20%;
+	     min-width: 200px;
+	     max-width: 200px;
+	}
+
+	#MainContent {
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	
+	#LeftMenu {
+		 width: 20%;
+	     min-width: 200px;
+	     max-width: 200px;
+	}
+
+	#MainContent {
+		width: 75%;
+	}
+}
+
+@media only screen and (max-width: 980px) {
+	#LeftMenu {
+		 width: 20%;
+	     min-width: 200px;
+	     max-width: 200px;
+	}
+	
+	#MainContent {
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 820px) {
+	#LeftMenu {
+		 width: 20%;
+	     min-width: 200px;
+	     max-width: 200px;
+	}
+
+	#MainContent {
+		width: 60%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	
+	#LeftMenu {
+		 width: 20%;
+	     min-width: 200px;
+	     max-width: 200px;
+	}
+	
+	#MainContent {
+		width: 50%;
+	}
+}
+
+
+@media only screen and (max-width: 500px) {
+	
+	#LeftMenu {
+		min-width: 200px;
+	    max-width: 500px;
+		width: 100%;
+	}
+	
+	#MainContent {
+		width: 100%;
+	}
+}
+
+
